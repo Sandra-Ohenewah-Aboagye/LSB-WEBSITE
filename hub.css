@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkkhaki;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #2c3e50;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    background-color: lemonchiffon;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+div{
+    text-align: center;
+    padding-left: 20px;
+
+}
+img{
+        width: 300px;
+        border-radius: 10px;
+        border: 8px solid lemonchiffon;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+    
+}
+address{
+    text-align: center;
+    padding: 10px;
+    font-style: normal;
+    color: #7f8c8d;
+    font-size: 1.2rem;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+    background-color: #ecf0f1;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav {
+    background-color: cornsilk;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
